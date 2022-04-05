@@ -1,6 +1,7 @@
 const { Keypair } = require("@solana/web3.js");
 const { Connection, LAMPORTS_PER_SOL } =  require("@solana/web3.js");
 const path = require('path');
+const spawn = require("cross-spawn");
 const fs = require('fs');
 
 //import { Connection, LAMPORTS_PER_SOL } from "@solana/web3.js"
